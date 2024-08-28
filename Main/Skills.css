@@ -98,7 +98,6 @@ nav a.active{
     }
 }
 #skills {
-    margin-top: 100px;
     background-color: #000000; /* Dark background for section */
     padding: 60px 0;
 }
@@ -138,7 +137,7 @@ h2 {
 .icon {
     font-size: 3em;
     color: #b74b4b; /* Red color for icons */
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .icon i {
@@ -155,3 +154,53 @@ p {
     font-size: 1.5em;
     color: #ccc; /* Light gray text for readability */
 }
+
+/* Skills Bar CSS */
+.containers {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bar {
+    background-color: #363636;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 20px;
+    width: 0;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.html {
+    background-color: #b74b4b;
+}
+
+.css {
+    background-color: #b74b4b;
+}
+
+.js {
+    background-color: #b74b4b;
+}
+
+/* Set skill levels here */
+.html { width: 80%; }
+.css { width: 70%; }
+.js { width: 30%; }
